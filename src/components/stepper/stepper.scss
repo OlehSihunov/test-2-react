@@ -1,0 +1,61 @@
+$base-color: #276AFD;
+.stepper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.content {
+    text-align: center;
+    margin-bottom: 180px;
+    margin-top:180px ;
+    h2 {
+        font-family: Liberation Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 150.02%;
+        /* identical to box height, or 51px */
+    
+        letter-spacing: 0.015em;
+    }
+}
+
+@media screen and (max-width:1100px){
+
+   .content { 
+       margin-top: 110px;
+       margin-bottom: 110px;
+       h2 {
+        font-size: 28px;
+       }    
+   }
+}
+
+@media screen and (max-width:770px){
+    .content { 
+        margin-top: 110px;
+       margin-bottom: 110px;
+        h2 {
+         font-size: 20px;
+        }    
+    }
+}
+@media screen and (max-width:600px){
+    .stepper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px){
+    .content { 
+        h2 {
+         font-size: 16px;
+        }    
+    }
+}
+
+
+
+
+
