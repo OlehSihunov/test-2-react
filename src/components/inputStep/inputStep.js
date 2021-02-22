@@ -9,7 +9,7 @@ const InputStep = ({number,text,holder}) => {
             <h3>{number}</h3>
             <p>{text}</p>
             <TextField
-                className = "step-button"
+                className = "step-input"
                 id="outlined-secondary"
                 label={holder}
                 variant="outlined"
